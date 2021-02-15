@@ -48,5 +48,4 @@ mod tests {
         let test_object = ComplexRF::new();
         b.iter(|| test_one(&test_object, None, false));
     }
-
 }
